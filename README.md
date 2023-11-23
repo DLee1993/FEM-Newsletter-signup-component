@@ -1,8 +1,54 @@
-# React + Vite
+# Frontend Mentor - Newsletter sign-up form with success message
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Continued development](#continued-development)
+    -   [Useful resources](#useful-resources)
+
+## Overview
+
+### The challenge
+
+This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.
+
+Users should be able to:
+
+-   View the optimal layout for the interface depending on their device's screen size
+-   See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![ScreenShot](Screenshot.png)
+
+### Links
+
+-   Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-built-with-mantine-ui-library-components-NOly1L_D19
+-   Live Site URL: https://dlee1993.github.io/FEM-Newsletter-signup-component/
+
+## My process
+
+This layout is fairly simple, most of the layout can be completed by using flex-col and flex-row based on screen size, the difficult part is to have the image sized correctly for each screen width and to allow them to overlap into the sibling section.
+
+### Built with
+
+-   Semantic HTML5 markup
+-   css
+-   [React](https://reactjs.org/) - JS library
+
+
+### Useful resources
+
+-   Tailwindcss Docs (https://www.tailwindcss.com)
+
+## Author
+
+-   Frontend Mentor - https://www.frontendmentor.io/profile/DLee1993
