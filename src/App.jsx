@@ -39,6 +39,7 @@ function App() {
             <section
                 className={`baseStyling newsletterStyling ${signupVisible ? "visible" : "hidden"}`}
             >
+                <h2 className="sr-only">Signup section</h2>
                 <section id="newsletterSignupText">
                     <h2>Stay updated!</h2>
                     <p>Join 60,000+ product managers receiving monthly updates on:</p>
