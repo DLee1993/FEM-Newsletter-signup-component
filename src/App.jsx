@@ -34,12 +34,13 @@ function App() {
     }
 
     return (
-        <>
+        <main>
+            <h1 className="sr-only">Newsletter</h1>
             <section
                 className={`baseStyling newsletterStyling ${signupVisible ? "visible" : "hidden"}`}
             >
                 <section id="newsletterSignupText">
-                    <h1>Stay updated!</h1>
+                    <h2>Stay updated!</h2>
                     <p>Join 60,000+ product managers receiving monthly updates on:</p>
                     <ul>
                         <li>
@@ -78,9 +79,10 @@ function App() {
                     successVisible ? "visible" : "hidden"
                 }`}
             >
+                <h2 className="sr-only">Successful Sign up</h2>
                 <img src={successTick} alt="succesfull signup icon" id="successIcon" />
                 <section>
-                    <h1>Thanks for subscribing!</h1>
+                    <h2>Thanks for subscribing!</h2>
                     <p id="successMessage">
                         A confirmation email has been sent to <span id="signupEmail">{email}</span>.
                         Please open it and click the button inside to confirm your subscription.
@@ -90,7 +92,7 @@ function App() {
                     Dismiss message
                 </button>
             </section>
-        </>
+        </main>
     );
 }
 
